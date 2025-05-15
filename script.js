@@ -1,44 +1,3 @@
-// const mainEl = document.querySelector('main');
-// mainEl.style.backgroundColor = 'var(--main-bg)';
-
-// mainEl.innerHTML = '<h1>DOM Manipulation</h1>';
-// mainEl.classList.add('flex-ctr');
-
-// // Select and cache the <nav id="top-menu"> element
-// const topMenuEl = document.getElementById('top-menu');
-
-// // Set the height to 100%
-// topMenuEl.style.height = '100%';
-
-// // Set the background color using the CSS custom property
-// topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
-
-// // Add the flex-around class for styling
-// topMenuEl.classList.add('flex-around');
-
-// // Menu data structure
-// var menuLinks = [
-//   { text: 'about', href: '/about' },
-//   { text: 'catalog', href: '/catalog' },
-//   { text: 'orders', href: '/orders' },
-//   { text: 'account', href: '/account' },
-// ];
-
-
-// // Iterate over menuLinks and create each menu item
-// menuLinks.forEach(link => {
-//   // Create an <a> element
-//   const aEl = document.createElement('a');
-
-//   // Set href attribute
-//   aEl.href = link.href;
-
-//   // Set text content
-//   aEl.textContent = link.text;
-
-//   // Append to topMenuEl
-//   topMenuEl.appendChild(aEl);
-// });
 
 let body = document.querySelector('body')
 
@@ -68,15 +27,6 @@ topMenuEl.classList.add('flex-around')
 
 
 
-//PART 3
-
-// 1 Iterate over the entire menuLinks array and for each "link" object:
-// var menuLinks = [
-//     { text: 'about', href: '/about' },
-//     { text: 'catalog', href: '/catalog' },
-//     { text: 'orders', href: '/orders' },
-//     { text: 'account', href: '/account' },
-//   ];
 var menuLinks = [
   {text: 'about', href: '/about'},
   {text: 'catalog', href: '#', subLinks: [
